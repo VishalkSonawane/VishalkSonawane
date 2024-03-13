@@ -1,0 +1,83 @@
+
+.main
+{
+        /* border: 15px solid rgb(0, 0, 0); */
+        margin: 5px;
+}
+.header
+{ 
+        border: 25px solid rgb(255, 255, 255);
+        background-color:rgb(14, 63, 18);
+}
+.CompName
+{
+        /* border: 5px solid rgb(14, 63, 18)); */
+        margin: 30px 550px 20px 150px;
+        font-size:300px;
+        font-family: Comic sans MS;
+        color:yellow;
+        width: 60%;
+        padding: 20px 200px 20px 350px;
+}
+.CompName p::first-letter
+{
+        font-size: 390px;
+        color: rgb(255, 54, 54);
+        font-weight: bold;
+
+}
+.menu
+{
+        width: 29%;
+        word-spacing: 100px;
+        color: white;
+        font-size: 65px;
+        /* border: 3px solid rgb(14, 63, 18); */
+       
+}
+.menu a
+{
+        color: white;
+        padding: 25px;
+        text-decoration: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.2em;
+}
+.menu a:hover
+{
+        background-color: rgb(101, 122, 122);
+}
+.first
+{
+       /* border: 2px solid white; */
+        font-size:100px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        word-spacing: 70px;
+        padding: 5px;
+        color: aqua;
+}
+.first
+{
+        margin-left: 1500px;
+         width: 50%;
+         height: 290px;
+         background: rgb(250, 143, 143);
+         transition: width 4s;
+        
+}
+.first:hover
+{
+        width: 1800px;
+}
+.second
+{
+        margin-top: 20px;
+        /* border: 3px solid black; */
+}
+.subsecond
+{
+        /* border: 3px solid red; */
+        width: 50%;
+        height: 400px;
+}

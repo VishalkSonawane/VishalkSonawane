@@ -1,0 +1,82 @@
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border:2px solid rgb(254, 0, 0); */
+    min-height:200px;
+    background-color: black;
+       
+}
+.logo
+{
+    /* border: 2px solid rgb(100, 99, 99); */
+    margin: 5px;
+    width: 35%;
+    height: 200px;
+    color: white;
+}
+.logo1
+{
+    margin-top: 25px;
+    /* border: 3px solid green; */
+    align-items: center;
+    min-height: 50px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: bisque;
+}
+.logo1::first-letter
+{
+    font-size: 80px;
+    font-family: cursive;
+    color: rgb(218, 255, 71);
+}
+.menu
+{
+    width: 75%;
+    margin: 5px;
+    /* border: 2px solid green; */
+    height: 200px;
+}
+.menubar
+{
+    display: flex;
+    height: 30px;
+    /* border: 2px solid rgb(255, 0, 123); */
+    margin: 3px;
+}
+.menulist
+{
+    /* border: 2px solid rgb(255, 255, 255); */
+    width: 60%;
+    margin: 2px;
+    color: aqua;
+    word-spacing: 100px;
+    text-align: center;
+    padding: 2px;
+}
+.menulist a
+{
+    text-decoration: none; 
+    color: white;
+    word-spacing: 2px;
+}
+.cart
+{
+    /* border: 2px solid rgb(135, 26, 131); */
+    margin: 2px;
+    width: 40%;
+    color: aliceblue;
+    text-align: right;
+    letter-spacing: 3px;
+    padding-right: 9px;
+}
+.menufooter
+{
+    /* border: 2px solid blue; */
+    height: 40%;
+    width: 99%;
+    margin: 77px 2px 2px 2px;
+}
